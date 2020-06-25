@@ -1,9 +1,11 @@
 {
-  "name": "@diegobanos/stack-flair",
+  "name": "stack-flair",
   "version": "0.0.1",
   "description": "A StackExchange flair react component",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/StackFlair.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "keywords": [
     "react-component",
     "react",
@@ -24,8 +26,11 @@
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "bugs": {
     "url": "https://github.com/diegobanos/stack-flair/issues"

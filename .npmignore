@@ -5,6 +5,14 @@ npm-debug.log
 # Dependency directory
 node_modules
 
+src
+
+demo
+
+.babelrc
+
+webpack.config.js
+
 # Runtime data
 tmp
 
