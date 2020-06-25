@@ -1,5 +1,5 @@
 {
-  "name": "stack-flair",
+  "name": "@diegobanos/stack-flair",
   "version": "0.0.1",
   "description": "A StackExchange flair react component",
   "main": "index.js",
@@ -17,13 +17,19 @@
   "author": "Diego Banos <diegobanosfarinas@gmail.com>",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/diegobanos/stack-flair"
+    "type": "git",
+    "url": "git+https://github.com/diegobanos/stack-flair.git"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
-    "react": "^16.13.1"
-  }
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "bugs": {
+    "url": "https://github.com/diegobanos/stack-flair/issues"
+  },
+  "homepage": "https://github.com/diegobanos/stack-flair#readme",
+  "dependencies": {}
 }

@@ -1,2 +1,1 @@
-import Flair from "./src/StackFlair/StackFlair";
-export { Flair };
+export { StackFlair } from "./src/StackFlair";

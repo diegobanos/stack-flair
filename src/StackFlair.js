@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 
-export default class Flair extends PureComponent {
+export default class StackFlair extends PureComponent {
   constructor(props) {
     super(props);
   }
